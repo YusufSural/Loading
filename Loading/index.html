@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            background-color: black ;
+        }
+      .bir{
+        border-left: 5px solid red;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 250px;
+        left: 550px;
+        border-radius: 50%;
+        animation: circle 0.7 linear infinite;
+        animation-name: dondur;
+        animation-duration: 600ms;
+        animation-delay: 1000ms;
+        animation-timing-function: linear;
+       animation-iteration-count: infinite;
+      }
+      .iki{
+        border-left: 5px solid green;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 250px;
+        left: 550px;
+        border-radius: 50%;
+        animation: circle 0.7 linear infinite;
+        animation-name: dondur;
+        animation-duration: 300ms;
+        animation-delay: 1000ms;
+        animation-timing-function: linear;
+       animation-iteration-count: infinite;
+      }
+      .uc{
+        border-left: 5px solid blue;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 250px;
+        left: 550px;
+        border-radius: 50%;
+        animation: circle 0.7 linear infinite;
+        animation-name: dondur;
+        animation-duration: 400ms;
+        animation-delay: 1000ms;
+        animation-timing-function: linear;
+       animation-iteration-count: infinite;
+      }
+     
+        @keyframes dondur{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="bir"></div>
+   <div class="iki"></div>
+   <div class="uc"></div>
+
+</body>
+</html>
